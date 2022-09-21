@@ -32,9 +32,9 @@ add_action( 'woocommerce_before_cart' , 'wc_minimum_order_amount' );
  
 function wc_minimum_order_amount() {
     // Set this variable to specify a minimum order value
-    $minimum = 50;
+    ₦ minimum = 5000;
 
-    if ( WC()->cart->total < $minimum ) {
+    if ( WC()->cart->total < ₦minimum ) {
 
         if( is_cart() ) {
 
